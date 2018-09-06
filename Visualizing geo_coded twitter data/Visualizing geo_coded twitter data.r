@@ -5,13 +5,13 @@ if (!require("twitteR")) {
 }
 
 # REPLACE WITH YOUR API KEY
-myapikey <- "005xyO9oWY9QndMoPAwFADzRb"
+myapikey <- "*************************"
 # REPLACE WITH YOUR API SECRET
-myapisecret <- "uY2u756WScAEtlen4pTGtRSsLzOnGuoalLJo4N35qLpn2eojkE"
+myapisecret <- "*************************"
 # REPLACE WITH YOUR ACCESS TOKEN
-myaccesstoken <- "957768651960209408-VF7wXJnMhDn5Bj2td8XN4mnbTOngMk8"
+myaccesstoken <- "*************************-*************************"
 # REPLACE WITH YOUR ACCESS TOKEN SECRET
-myaccesstokensecret <- "boXFblT9OXDL2PSoj3CBn0kxrXV0zgZNrJnJApO0PYSLf"
+myaccesstokensecret <- "*************************"
 
 options(httr_oauth_cache=T) #This will enable the use of a local file to cache OAuth access credentials between R sessions
 
@@ -44,7 +44,8 @@ jes_followers_df$location<-gsub("%", "", jes_followers_df$location)
 
 jes_followers_df$location <- gsub("[^0-9A-Za-z#///' ]", "", jes_followers_df$location)
 
-google_api_key <- "AIzaSyBGPkY2RZccXOzAq-_KwIywQb6-bYZIAjU"
+#Replace with your google API.
+google_api_key <- "*************************-*************************-*************************"
 
 #Install key package helpers:
 source("https://raw.githubusercontent.com/LucasPuente/geocoding/master/geocode_helpers.R")
